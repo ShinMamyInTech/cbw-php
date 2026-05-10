@@ -1,0 +1,21 @@
+<?php
+define('BASE_PATH', dirname(__DIR__));
+
+
+define(
+    'BASE_URL',
+    rtrim(dirname($_SERVER['SCRIPT_NAME']), '/')
+);
+
+define('DB_PATH', BASE_PATH . '/db');
+ 
+//include pages
+define('PAGES_PATH', BASE_PATH . '/pages');
+
+//include - Pfade
+define('INCLUDES_PATH', BASE_PATH . '/includes');
+
+
+define('CSS_URL', BASE_URL . '/assets/css');
+define('JS_URL', BASE_URL . '/assets/js');
+define('IMG_URL', BASE_URL . '/assets/img');
